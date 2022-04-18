@@ -13,7 +13,7 @@ function CV() {
 	<ul>
 	<li>IBM Data Science Professional Certificate by IBM on Coursera</li>
 	<li>Professional Certificate of "DeepLearning.AI TensorFlow Developer", by DeepLearning.AI
-	    and Coursera</li>
+	    on Coursera</li>
 	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv University, 
 	    IsraelX & edX</li>
 	</ul>
@@ -26,8 +26,8 @@ function CV() {
 
 	<h3>Skills & experience</h3>
 	<ul>
-	<li>Programming languages: Python, Java, JavaScript, C#, C++, Kotlin, PHP</li>
-	<li>Web frameworks: Flask, Django, ReactJS, Symfony, CodeIgniter</li>
+	<li>Programming languages: Python, Java, JavaScript, C++</li>
+	<li>Web frameworks: Flask, Django, ReactJS</li>
 	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
