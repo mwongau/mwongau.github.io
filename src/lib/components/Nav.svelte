@@ -11,7 +11,7 @@
         <a href="{base}/posts">Blog</a>
       </li>
       <li>
-        <a href="{base}/about">About</a>
+        <a href="{base}/cv">CV</a>
       </li>
     </ul>
   </nav>
@@ -20,9 +20,9 @@
 nav {
   padding: 1rem;
   background: AliceBlue;
-  //display: flex;
-  //flex-wrap: wrap;
-  //justify-content: space-between;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;*/
 }
 
 ul {
