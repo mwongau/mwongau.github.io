@@ -13,6 +13,9 @@
       <li>
         <a href="{base}/cv">CV</a>
       </li>
+      <li>
+        <a href="{base}/photos">Photos</a>
+      </li>
     </ul>
   </nav>
 
