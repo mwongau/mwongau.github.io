@@ -1,4 +1,4 @@
-<h1 style="color: purple;>CV</h1>
+<h1 style="color: purple;">CV</h1>
 <div class="CV">
 	<h3>Academic degrees</h3>
 	<ul>
