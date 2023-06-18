@@ -16,6 +16,9 @@
       <li>
         <a href="{base}/photos">Photos</a>
       </li>
+	  <li>
+        <a href="{base}/privacy">Privacy Policy</a>
+      </li>
     </ul>
   </nav>
 
