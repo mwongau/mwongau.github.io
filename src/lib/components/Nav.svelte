@@ -20,9 +20,6 @@
 nav {
   padding: 1rem;
   background: AliceBlue;
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;*/
 }
 
 ul {
@@ -34,6 +31,5 @@ ul {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 </style>
