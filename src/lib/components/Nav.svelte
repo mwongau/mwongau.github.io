@@ -1,23 +1,23 @@
 <script>
-  import { base } from "$app/paths";
+  //import { base } from "$app/paths";
 </script>  
 
 <nav>
     <ul>
       <li>
-        <a href="{base}/">Home</a>
+        <a href="/">Home</a>
       </li>
 	  <li>
-        <a href="{base}/posts">Blog</a>
+        <a href="/posts">Blog</a>
       </li>
       <li>
-        <a href="{base}/cv">CV</a>
+        <a href="/cv">CV</a>
       </li>
       <li>
-        <a href="{base}/photos">Photos</a>
+        <a href="/photos">Photos</a>
       </li>
 	  <li>
-        <a href="{base}/privacy">Privacy</a>
+        <a href="/privacy">Privacy</a>
       </li>
     </ul>
   </nav>
