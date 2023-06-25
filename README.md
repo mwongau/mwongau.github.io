@@ -1,5 +1,5 @@
 # Personal site of M Wong
-## This site is built by using SvelteKit, JavaScript, HTML and CSS.
+## This site is built by using SvelteKit, JavaScript, HTML and CSS. This site includes a static Markdown blog. Web hosting is done by Github Pages.
 
 # create-svelte
 

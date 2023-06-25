@@ -2,9 +2,9 @@
 import { browser } from "$app/environment"
 
 let showText = true
-const acceptCookies = () => {
+function acceptCookies(){
    if (browser) {
-      document.cookie = "acceptCookiesButtonClicked= buttonClicked";
+      document.cookie = "acceptCookiesButtonClicked=buttonClicked";
    } 
    showText = false   
 }
@@ -21,7 +21,7 @@ if (browser) {
 <div>
 <p>Welcome to my personal site. I am a researcher in computer vision and machine learning with Ph.D in Computer Science, 
 M.Sc & B.Sc(Hons.) in Electronic Engineering. I am also interested in web app development. This site is built by using 
-SvelteKit, Javascript, HTML and CSS. This site is hosted by GitHub Pages.</p>	
+SvelteKit, Javascript, HTML and CSS. This site includes a static Markdown blog. This site is hosted by GitHub Pages.</p>	
 </div>	
 
 <p>
