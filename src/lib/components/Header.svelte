@@ -6,7 +6,7 @@
 
 <style>
 .MyHeader {
-   background-color: Lavender; 
+   background-color: Linen; 
    color: purple;
    padding: 3px;
 }
