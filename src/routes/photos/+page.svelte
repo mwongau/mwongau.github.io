@@ -1,6 +1,4 @@
 <script>
-import { base } from "$app/paths";
-
 let count = 1;
 
 function select() {
@@ -17,17 +15,17 @@ function select() {
 
    {#if count==1}
    <h4>Australian Catholic University, Strathfield Campus, NSW, Australia</h4>
-   <img src="{base}/acupy.jpg" alt="acu">
+   <img src="/acupy.jpg" alt="acu">
    {/if}
 
    {#if count==2}
    <h4>University of Technology Sydney, Building 5</h4>
-   <img src="{base}/uts-bldg5.jpg" alt="uts">
+   <img src="/uts-bldg5.jpg" alt="uts">
    {/if}
 
    {#if count==3}
    <h4>Homebush Public School, Homebush, NSW, Australia</h4>
-   <img src="{base}/hps.jpg" alt="hps">
+   <img src="/hps.jpg" alt="hps">
    {/if}   
 </div>
 

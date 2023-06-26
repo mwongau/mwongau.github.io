@@ -1,5 +1,5 @@
 <h1>CV</h1>
-<div class="CV">
+<div>
 	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>

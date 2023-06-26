@@ -23,7 +23,7 @@
 
 <style>
 nav {
-  padding: 1rem;
+  padding: 5px;
   background: AliceBlue;
 }
 
