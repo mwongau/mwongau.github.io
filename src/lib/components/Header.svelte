@@ -8,6 +8,7 @@
 .MyHeader {
    background-color: Linen; 
    color: purple;
-   padding: 3px;
+   padding: 5px;
+   
 }
 </style>
