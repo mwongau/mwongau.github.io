@@ -29,7 +29,7 @@ function select() {
    {/if}   
 </div>
 
-<style scoped>
+<style>
 img {
    max-width: 100%;
    height: auto;
