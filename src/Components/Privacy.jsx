@@ -3,7 +3,7 @@ function Privacy() {
     <div className="Privacy">	
 	<h2>Privacy Policy</h2>
 	<h3>Who we are</h3>
-	<p>Our website address is: https://mwongau.github.io/react-site</p>
+	<p>Our website address is: https://mwongau.github.io</p>
 	<p>This is the personal site of M. Wong.</p>
 	
 	<h3>Contact</h3>
