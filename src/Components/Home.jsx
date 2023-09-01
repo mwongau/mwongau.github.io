@@ -11,11 +11,10 @@ export default function Home() {
   
   const value = Cookies.get('cookiesButtonClicked');
   let mystyle;
-  if (value === "clicked")
+  if (value === "clicked" || !{text})
     mystyle = {display:"none"};
-  else {
+  else 
     mystyle = {display:"inline"};
-  }
   
   return (
 	<div className="Home">
@@ -28,8 +27,8 @@ export default function Home() {
 		</div>
 		
 		<p class="Notice" style={mystyle}> This site uses cookies to improve your browsing experience. If 
-		you continue to use this site, it will be assumed you agree to the use of cookies. 
-		<button onClick={handleClick}>OK</button></p>
+		you continue to use this site, it will be assumed you agree to the use of cookies. <button onClick={handleClick}>
+		OK</button></p>
     </div>	
   );
 }
