@@ -26,7 +26,7 @@ export default function Home() {
 		and CSS. This site is hosted by GitHub Pages.</p>					
 		</div>
 		
-		<p class="Notice" style={mystyle}> This site uses cookies to improve your browsing experience. If 
+		<p className="Notice" style={mystyle}> This site uses cookies to improve your browsing experience. If 
 		you continue to use this site, it will be assumed you agree to the use of cookies. <button onClick={handleClick}>
 		OK</button></p>
     </div>	
