@@ -1,5 +1,6 @@
 .MyHeader {
 	padding: 5px;
 	color: purple;
-    background-color: WhiteSmoke;
+    background: AliceBlue;
+	font-family: sans-serif
 }

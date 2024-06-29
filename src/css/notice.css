@@ -1,1 +1,4 @@
-.Notice { background-color: #eef;}
+.Notice { 
+   background: #eef;
+   padding: 1rem;
+}
