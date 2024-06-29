@@ -1,4 +1,3 @@
-import "../css/notice.css"
 import { useState } from 'react';
 import Cookies from 'js-cookie';
 

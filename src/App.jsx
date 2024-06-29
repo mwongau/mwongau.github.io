@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/links.css';
+import './css/styles.css';
 import Header from './Components/Header';
 import CV from './Components/CV';
 import Privacy from './Components/Privacy';
