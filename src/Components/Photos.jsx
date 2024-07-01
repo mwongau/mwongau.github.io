@@ -31,7 +31,7 @@ export default function Photos() {
    }
    
    return (
-      <div className="Photo">
+      <div>
       <h2>Photos</h2>
 	  <p>Click Next photo button or select a photo with the name on the button</p>
       <button onClick={handleClick}>

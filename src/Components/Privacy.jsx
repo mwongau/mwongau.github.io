@@ -1,6 +1,6 @@
 function Privacy() {
   return (
-    <div className="Privacy">	
+    <div>	
 	<h2>Privacy Policy</h2>
 	<h3>Who we are</h3>
 	<p>Our website address is: https://mwongau.github.io</p>

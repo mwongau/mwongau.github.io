@@ -1,6 +1,6 @@
 function CV() {
   return (
-    <div className="CV">
+    <div>
 	<h2>CV of M Wong</h2>
 	<h3>Academic degrees</h3>
 	<ul>

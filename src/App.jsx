@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/styles.css';
+import './app.css';
 import Header from './Components/Header';
 import CV from './Components/CV';
 import Privacy from './Components/Privacy';
@@ -11,7 +11,7 @@ export default function App() {
     return (	
 	<div>
 	<Header name="M Wong" sub_title="My personal site" />	
-	<nav className="Links">
+	<nav className="links">
 	   <Link to="/"> HOME </Link> | 
 	   <Link to="resume"> CV </Link> | 
 	   <Link to="photos"> PHOTOS </Link> | 
