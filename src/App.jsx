@@ -1,4 +1,3 @@
-import React from 'react';
 import './app.css';
 import Header from './Components/Header';
 import CV from './Components/CV';
