@@ -19,15 +19,15 @@ export default function Home() {
 	<div>
 		<h2>Home</h2>		
 		<div>
-		<p>Welcome to my personal website. I am a researcher in computer vision & machine learning 
-		with Ph.D in Computer Science, M.Sc & B.Sc(Hons.) in Electronic Engineering. I am also 
-		interested in web app development. This site is built by using React, Vite, Javascript, HTML 
-		and CSS. This site is hosted by GitHub Pages.</p>					
+		<p>Welcome to my personal website. I am a researcher in computer vision & machine 
+		learning with Ph.D in Computer Science, M.Sc & B.Sc(Hons.) in Electrical and Electronic 
+		Engineering. I am also interested in web app development. This site is built by using 
+		React, Vite, Javascript, HTML and CSS. This site is hosted by GitHub Pages.</p>					
 		</div>
 		
-		<p className="notice" style={mystyle}> This site uses cookies to improve your browsing experience. If 
-		you continue to use this site, it will be assumed you agree to the use of cookies. <button onClick={handleClick}>
-		OK</button></p>
+		<p className="notice" style={mystyle}> This site uses cookies to improve your browsing 
+		experience. If you continue to use this site, it will be assumed you agree to the use 
+		of cookies. <button onClick={handleClick}>OK</button></p>
     </div>	
   );
 }
