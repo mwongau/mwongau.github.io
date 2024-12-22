@@ -15,7 +15,7 @@ function Privacy() {
 		author.</p>
 		
 	<h3>Cookies</h3>
-	<p>This website might use cookies to improve your experience of 
+	<p>This website uses cookies to improve your experience of 
 	using the site. If you continue to use this site, it will be 
 	assumed that you agree to the use of cookies.</p>
 
