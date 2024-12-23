@@ -32,21 +32,22 @@ export default function Photos() {
    
    return (
       <div>
-      <h2>Photos</h2>
-	  <p>Click Next photo button or select a photo with the name on the button</p>
-      <button onClick={handleClick}>
+      <h2 className="text-2xl py-2 text-teal-500">Photos</h2>
+	  <h2>Click Next photo button or select a photo with the name on the button</h2>
+	  
+      <button className="px-5 border-2 bg-blue-100" onClick={handleClick}>
       Next photo
-      </button> |
-	  <button onClick={acu}>
+      </button> 
+	  <button className="px-5 border-2 bg-blue-100" onClick={acu}>
       Australian Catholic University
-      </button> |
-	  <button onClick={uts}>
+      </button> 
+	  <button className="px-5 border-2 bg-blue-100" onClick={uts}>
       University of Technology Sydney
-      </button> |
-	  <button onClick={hps}>
+      </button> 
+	  <button className="px-5 border-2 bg-blue-100" onClick={hps}>
       Homebush Public School
       </button>
-	  
+	  <br /> <br />
       <h4>{desc[count]}</h4>
       <img src={images[count]} alt={alt[count]} />
       <br />

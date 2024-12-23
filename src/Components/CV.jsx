@@ -1,7 +1,7 @@
 function CV() {
   return (
     <div>
-	<h2>CV</h2>
+	<h2 className="text-2xl py-2 text-teal-500">CV</h2>
 	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>
@@ -24,7 +24,8 @@ function CV() {
 	<h3>Skills & experience</h3>
 	<ul>
 	<li>Programming languages: Python, Java, JavaScript, C#, C++</li>
-	<li>Web frameworks: Flask, Django, Next.js, React.js, Svelte, Sveltekit, Vue.js</li>
+	<li>Web frameworks / User interfaces library: 
+	Flask, Django, Next.js, React.js, Svelte, Sveltekit, Vue.js</li>
 	<li>Machine learning library: Tensorflow, scikit-learn</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>

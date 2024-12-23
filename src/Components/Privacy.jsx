@@ -1,7 +1,7 @@
 function Privacy() {
   return (
     <div>	
-	<h2>Privacy Policy</h2>
+	<h2 className="text-2xl py-2 text-teal-500">Privacy Policy</h2>
 	<h3>Who we are</h3>
 	<p>Our website address is: https://mwongau.github.io</p>
 	<p>This is the personal site of M. Wong.</p>
