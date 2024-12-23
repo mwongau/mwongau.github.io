@@ -1,12 +1,11 @@
-//import './app.css';
+import './index.css';
+import './app.css';
 import Header from './Components/Header';
 import CV from './Components/CV';
 import Privacy from './Components/Privacy';
 import Home from './Components/Home';
 import Photos from './Components/Photos';
 import { Link, Route, Routes } from "react-router-dom";
-import './index.css';
-import './app.css';
 
 
 export default function App() {
