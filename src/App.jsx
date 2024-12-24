@@ -12,12 +12,24 @@ export default function App() {
     return (	
 	<div>
 	<Header name="M Wong" sub_title="My personal site" />	
-	<nav className="links">
-	   <Link to="/"> HOME </Link> | 
-	   <Link to="resume"> CV </Link> | 
-	   <Link to="photos"> PHOTOS </Link> | 
-	   <Link to="privacy"> PRIVACY</Link>
-	</nav> 		
+	
+	<nav class="bg-gray-100 font-semibold">
+	<ul class="flex">
+	<li class="mx-3">	
+    <Link class="text-blue-500 hover:text-red-900 text-bold" to="/">Home</Link>
+	</li>
+	<li class="mx-3">
+    <Link class="text-blue-500 hover:text-red-900" to="resume">CV</Link>
+	</li>
+	<li class="mx-3">
+    <Link class="text-blue-500 hover:text-red-900" to="photos">Photos</Link>
+	</li>
+	<li class="mx-3">
+    <Link class="text-blue-500 hover:text-red-900" to="privacy">Privacy</Link>
+	</li>
+	</ul>
+	</nav>
+	
 	<Routes>
        <Route path="/" element={<Home />} />
        <Route path="resume" element={<CV />} />   	
