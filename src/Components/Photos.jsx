@@ -35,16 +35,16 @@ export default function Photos() {
       <h2 className="text-2xl py-2 text-teal-500">Photos</h2>
 	  <h2 className="font-bold">Click Next photo button or select a button with photo name</h2>
 	  
-      <button className="butt" onClick={handleClick}>
+      <button className="btn" onClick={handleClick}>
       Next photo
       </button> 
-	  <button className="butt" onClick={acu}>
+	  <button className="btn" onClick={acu}>
       Australian Catholic University
       </button> 
-	  <button className="butt" onClick={uts}>
+	  <button className="btn" onClick={uts}>
       University of Technology Sydney
       </button> 
-	  <button className="butt" onClick={hps}>
+	  <button className="btn" onClick={hps}>
       Homebush Public School
       </button>
 	  <br /> <br />
