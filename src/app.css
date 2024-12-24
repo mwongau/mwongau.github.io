@@ -3,14 +3,7 @@ h3 {
 }
 
 .btn {
-	padding: 5px;
-	background: #eef;
-	font-family: sans-serif;
-	margin: 5px
-}
-
-.btn {
-	@apply px-3 py-2 rounded bg-blue-100 hover:bg-blue-300;
+	@apply px-3 py-2 rounded bg-blue-100 hover:bg-blue-300 mx-3;
 }
 
 .header {
