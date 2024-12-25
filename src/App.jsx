@@ -16,16 +16,16 @@ export default function App() {
 	<nav className="bg-gray-100 font-semibold">
 	<ul className="flex">
 	<li className="mx-3">	
-    <Link className="text-blue-500 hover:text-red-900 text-bold" to="/">Home</Link>
+    <Link className="link" to="/">Home</Link>
 	</li>
 	<li className="mx-3">
-    <Link className="text-blue-500 hover:text-red-900" to="resume">CV</Link>
+    <Link className="link" to="resume">CV</Link>
 	</li>
 	<li className="mx-3">
-    <Link className="text-blue-500 hover:text-red-900" to="photos">Photos</Link>
+    <Link className="link" to="photos">Photos</Link>
 	</li>
 	<li className="mx-3">
-    <Link className="text-blue-500 hover:text-red-900" to="privacy">Privacy</Link>
+    <Link className="link" to="privacy">Privacy</Link>
 	</li>
 	</ul>
 	</nav>
