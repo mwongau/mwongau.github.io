@@ -25,7 +25,7 @@ export default function Home() {
 		React, Vite, Javascript, HTML and Tailwind CSS. This site is hosted by GitHub Pages.</p>					
 		</div>
 		
-		<p className="bg-gray-100" style={mystyle}> This site uses cookies to improve your browsing 
+		<p className="bg-gray-200" style={mystyle}> This site uses cookies to improve your browsing 
 		experience. If you continue to use this site, it will be assumed you agree to the use 
 		of cookies.  
 		<button className="px-3 border-2 bg-sky-200" onClick={handleClick}> OK </button></p>
