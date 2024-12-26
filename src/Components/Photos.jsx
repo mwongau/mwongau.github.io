@@ -49,7 +49,7 @@ export default function Photos() {
       </button>
 	  <br /> 
       <h4>{desc[count]}</h4>
-      <img src={images[count]} alt={alt[count]} />
+      <img className= "max-w-full h-auto" src={images[count]} alt={alt[count]} />
       <br />
       </div>
    );
