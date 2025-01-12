@@ -8,7 +8,7 @@ export default function Privacy() {
 	<p>This is the personal site of M. Wong.</p>
 	
 	<h3 className="font-semibold my-2">Contact</h3>
-	<p>GitHub: https://github.com/mwongau </p>
+	
 	<p>Email: mwong[at]mwongsite.com, replace [at] by @ </p>
 	<p>If you contact the site author by email, your name, 
 		email address and other information you provide to the 
