@@ -12,7 +12,7 @@ export default function App() {
     return (	
 	<div>
 	<Header name="M Wong" sub_title="My personal site" />	
-	<nav className="bg-gray-200 font-semibold">
+	<nav className="bg-gray-100 font-semibold">
 	<ul className="flex">
 	<li className="mx-3">	
 	<Link className="link" to="/">Home</Link>
