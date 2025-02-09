@@ -5,7 +5,7 @@ export default function Privacy() {
 	
 	<h3 className="font-semibold my-2">Who we are</h3>
 	<p>Our website address is: https://mwongau.github.io</p>
-	<p>This is the personal site of M. Wong.</p>
+	<p>This is the personal site of M Wong.</p>
 	
 	<h3 className="font-semibold my-2">Contact</h3>
 	

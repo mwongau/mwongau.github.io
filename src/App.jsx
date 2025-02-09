@@ -5,11 +5,11 @@ import CV from './Components/CV';
 import Privacy from './Components/Privacy';
 import Home from './Components/Home';
 import Photos from './Components/Photos';
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router";
+import { Outlet } from "react-router";
 
-
-export default function App() {
-    return (	
+function Layout() {
+	return (
 	<div>
 	<Header name="M Wong" sub_title="My personal site" />	
 	<nav className="bg-gray-100 font-semibold">
@@ -18,7 +18,7 @@ export default function App() {
 	<Link className="link" to="/">Home</Link>
 	</li>
 	<li className="mx-3">
-	<Link className="link" to="resume">CV</Link>
+	<Link className="link" to="cv">CV</Link>
 	</li>
 	<li className="mx-3">
 	<Link className="link" to="photos">Photos</Link>
@@ -28,12 +28,21 @@ export default function App() {
 	</li>
 	</ul>
 	</nav>
-	
+	<Outlet />
+	</div>
+	);
+}
+
+export default function App() {
+    return (	
+	<div>
 	<Routes>
-	<Route path="/" element={<Home />} />
-	<Route path="resume" element={<CV />} />   	
-	<Route path="photos" element={<Photos />} />
-	<Route path="privacy" element={<Privacy />} />
+	<Route path="/" element={<Layout />}>
+	  <Route index element={<Home />} />
+	  <Route path="cv" element={<CV />} />   	
+	  <Route path="photos" element={<Photos />} />
+	  <Route path="privacy" element={<Privacy />} />
+	</Route>
 	</Routes>
 	</div>
 	);
