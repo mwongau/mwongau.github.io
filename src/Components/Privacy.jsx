@@ -13,7 +13,8 @@ export default function Privacy() {
     <p>This site does not use analytics, cookies, or third-party tracking tools.</p>
 
     <p>For more details about privacy policies, please refer to GitHub’s Privacy Statement at 
-	URL https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement</p>
+	URL</p> 
+	<p>https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement</p>
 	
 	<h3>Contact</h3>
 	<p>For any questions about this privacy notice, please contact me at: 

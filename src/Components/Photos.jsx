@@ -32,8 +32,8 @@ export default function Photos() {
    
    return (
       <div>
-      <h2 className="text-2xl py-2 text-purple-800">Photos</h2>
-	  <h2 className="font-semibold">Click Next photo button or select a button with photo name</h2>
+      <h2>Photos</h2>
+	  <h2>Click Next photo button or select a button with photo name</h2>
 	  
       <button className="btn" onClick={handleClick}>
       Next photo
@@ -49,7 +49,7 @@ export default function Photos() {
       </button>
 	  <br /> 
       <h4>{desc[count]}</h4>
-      <img className= "max-w-full h-auto" src={images[count]} alt={alt[count]} />
+      <img src={images[count]} alt={alt[count]} />
       <br />
       </div>
    );
