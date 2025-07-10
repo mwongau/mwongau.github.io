@@ -13,22 +13,11 @@ function Layout() {
 	<div>
 	<Header name="M Wong" sub_title="My personal site" />	
 	<nav className="links">
-	<ul className="flex">
-	<li>	
-	<Link className="link" to="/">Home</Link>
-	</li>
-	<li>
-	<Link className="link" to="/cv">CV</Link>
-	</li>
-	<li>
-	<Link className="link" to="/photos">Photos</Link>
-	</li>
-	<li>
-	<Link className="link" to="/privacy">Privacy</Link>
-	</li>
-	</ul>
+	<Link className="link" to="/">Home</Link> | <Link className="link" to="/cv">CV</Link> | <Link className="link" to="/photos">Photos</Link> | <Link className="link" to="/privacy">Privacy</Link> 
 	</nav>
+	<main>
 	<Outlet />
+	</main>
 	</div>
 	);
 }
