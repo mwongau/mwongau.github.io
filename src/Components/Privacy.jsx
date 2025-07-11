@@ -7,14 +7,15 @@ export default function Privacy() {
 	
 	<p>This website is hosted by GitHub Pages. The hosting company GitHub may collect certain 
 	technical information from visitors, such as IP addresses, date and time of visit, and 
-	browser user agents, for security purpose and proper operation of the site. This information
-	is not accessible to me.</p>
+	browser user agents, for security purpose, monitoring performance, proper operation of the 
+	site and debugging. This practice is common for many hosting providers. These server logs 
+	information is not accessible to me.</p>
 
     <p>This site does not use analytics, cookies, or third-party tracking tools.</p>
 
     <p>For more details about privacy policies, please refer to GitHub’s Privacy Statement at 
-	URL</p> 
-	<p>https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement</p>
+	URL</p>
+    <p>https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement</p>
 	
 	<h3>Contact</h3>
 	<p>For any questions about this privacy notice, please contact me at: 
