@@ -9,11 +9,10 @@ body {
 	color: purple;
 }
 
-.links { background-color: #eef; }
-
-.links {
-  padding: 10px;
+.links { background-color: #eef; 
+         padding: 10px;
 }
+
 .links a {
   font-weight: bold;
   color: black;

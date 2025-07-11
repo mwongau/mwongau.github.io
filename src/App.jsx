@@ -6,7 +6,6 @@ import Privacy from './Components/Privacy';
 import Home from './Components/Home';
 import Photos from './Components/Photos';
 import {Link, Route, Routes, Outlet} from "react-router";
-//import { Outlet } from "react-router";
 
 function Layout() {
 	return (
