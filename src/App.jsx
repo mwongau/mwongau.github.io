@@ -23,7 +23,6 @@ function Layout() {
 
 export default function App() {
     return (	
-	<div>
 	<Routes>
 	<Route element={<Layout />}>
 	  <Route index element={<Home />} />
@@ -32,7 +31,6 @@ export default function App() {
 	  <Route path="privacy" element={<Privacy />} />
 	</Route>
 	</Routes>
-	</div>
 	);
 }
 
