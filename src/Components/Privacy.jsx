@@ -3,7 +3,7 @@ export default function Privacy() {
     <div>	
 	<h2>Privacy Policy</h2>
 	<p>My website address is: https://mwongau.github.io</p>
-	<p>This is the personal site of M Wong.</p>
+	<p>This is the personal site of M. Wong.</p>
 	
 	<p>This website is hosted by GitHub Pages. The hosting company GitHub may collect certain 
 	technical information from visitors, such as IP addresses, date and time of visit, and 
