@@ -5,11 +5,11 @@ export default function Privacy() {
 	<p>My website address is: https://mwongau.github.io</p>
 	<p>This is the personal site of M Wong.</p>
 	
-	<p>This website is hosted on GitHub Pages. GitHub may collect certain technical information 
-	from visitors — such as IP addresses, browser type, date and time of access, and pages 
-	requested — for security, performance monitoring, proper operation of the hosting platform, 
-	and debugging. This type of server logging is standard for most hosting providers. I do not 
-	have access to these server logs.</p>
+	<p>This website is hosted on GitHub Pages. The web hosting company may collect certain 
+	technical information from visitors — such as IP addresses, browser type, date and time of 
+	access, and pages requested — for security, performance monitoring, proper operation of 
+	the hosting platform, and debugging. This type of server logging is standard for most 
+	hosting providers. I do not have access to these server logs.</p>
 
     <p>This site does not use cookies for analytics, advertising, or tracking.</p>
 
