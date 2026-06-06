@@ -2,9 +2,7 @@ export default function Privacy() {
   return (
     <div>	
 	<h2>Privacy Notice</h2>
-	<p>My website address is: https://mwongau.github.io</p>
-	<p>This is the personal site of M Wong.</p>
-	
+		
 	<p>This website is hosted on GitHub Pages. The web hosting company may collect certain 
 	technical information from visitors — such as IP addresses, browser type, date and time of 
 	access, and pages requested — for security, performance monitoring, proper operation of 
@@ -19,7 +17,7 @@ export default function Privacy() {
     
     <h3>Contact</h3>
     <p>If you have questions about this privacy notice, please contact me at:</p>
-    <p>mwong[at]mwongsite[dot]com, please replace "[at]" by "@", "[dot]" by "."</p>
+    <p>mwong[at]mwongsite[dot]com (replace "[at]" by "@", "[dot]" by ".")</p>
 
     <p>If you contact me by email, your email address and message will be stored in my email 
 	account solely for the purpose of responding to your inquiry. I do not share this 
