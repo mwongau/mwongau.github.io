@@ -12,9 +12,9 @@ function Layout() {
 	<div>
 	<Header name="M Wong" sub_title="Researcher in Computer Vision & Machine Learning" />	
 	<nav className="links">
-	<Link className="link" to="/">Home</Link> | 
-	<Link className="link" to="/cv">CV</Link> | 
-	<Link className="link" to="/projects">Projects</Link> | 
+	<Link className="link" to="/">Home</Link> 
+	<Link className="link" to="/cv">CV</Link>  
+	<Link className="link" to="/projects">Projects</Link>  
 	<Link className="link" to="/privacy">Privacy</Link> 
 	</nav>
 	<main>
